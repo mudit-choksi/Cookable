@@ -176,67 +176,6 @@ Cookable can translate the request into structured preferences and use the exist
 AI is intended to make the interface more natural without replacing the deterministic recipe-matching logic.
 
 ---
-
-## 🗺️ Roadmap
-
-### Phase 1 — MVP
-
-* [x] Initial project setup
-* [ ] Product design system
-* [ ] Responsive homepage
-* [ ] Ingredient selection
-* [ ] Equipment selection
-* [ ] Cuisine selection
-* [ ] Dietary preference selection
-* [ ] Mock recipe database
-* [ ] Recipe matching algorithm
-* [ ] Recipe result cards
-* [ ] Recipe detail page
-
-### Phase 2 — Cooking Experience
-
-* [ ] Cooking Mode
-* [ ] Step-by-step instructions
-* [ ] Timers
-* [ ] Progress tracking
-* [ ] Mobile cooking interface
-* [ ] Cooking technique assistance
-
-### Phase 3 — External Data
-
-* [ ] Recipe API integration
-* [ ] Recipe images
-* [ ] YouTube tutorial integration
-* [ ] Nutrition information
-* [ ] Ingredient metadata
-
-### Phase 4 — AI
-
-* [ ] Natural-language recipe search
-* [ ] AI ingredient parsing
-* [ ] AI preference extraction
-* [ ] Personalized recommendations
-* [ ] Recipe adaptation
-* [ ] "Make it healthier" / "Make it spicier" style commands
-
-### Phase 5 — Personalization
-
-* [ ] User accounts
-* [ ] Favorite recipes
-* [ ] Recipe history
-* [ ] Saved ingredients
-* [ ] Pantry management
-* [ ] Personalized recommendations
-
-### Phase 6 — Shopping
-
-* [ ] Missing ingredient lists
-* [ ] Shopping lists
-* [ ] "Buy only what I'm missing"
-* [ ] Grocery integrations
-
----
-
 ## 🏗️ Product Philosophy
 
 Cookable is being built around a few principles:
@@ -319,30 +258,6 @@ npm run dev
 ```
 
 Then open the local URL shown in your terminal.
-
----
-
-## 🔐 Environment Variables
-
-When external APIs are introduced, secrets should be stored in environment variables.
-
-Create a local environment file:
-
-```bash
-.env.local
-```
-
-Example:
-
-```env
-API_KEY=your_api_key_here
-YOUTUBE_API_KEY=your_api_key_here
-```
-
-**Never commit API keys, passwords, tokens, or other secrets to GitHub.**
-
-Environment files containing secrets should remain excluded through `.gitignore`.
-
 ---
 
 ## 🧪 Development Approach
@@ -387,13 +302,6 @@ As the project matures, contribution guidelines will be added covering:
 * Code style
 
 ---
-
-## 📄 License
-
-License information will be added once the project reaches a stable public release.
-
----
-
 ## 🍽️ The Vision
 
 Cookable isn't trying to be another giant recipe database.
